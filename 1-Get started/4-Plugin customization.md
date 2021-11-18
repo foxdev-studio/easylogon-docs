@@ -1,3 +1,11 @@
+# Plugin customization
+Last update: 18-Nov-21 ([View change history](https://github.com/foxdev-studio/easylogon-docs/commits/master/1-Get%20started/3-Plugin%20customization.md))
+
+## Table of Contents
+- [Plugin types](#obtain-code)
+- [Custom CSS](#custom-css)
+- [Related links](#related-links)
+
 ## Plugin types
 Anim nostrud proident sunt amet aliquip deserunt aliquip eu sunt tempor ea ea nulla voluptate. Amet ipsum voluptate cupidatat eiusmod laboris adipisicing. Adipisicing consectetur eu reprehenderit id nisi magna reprehenderit eiusmod ad magna in.
 

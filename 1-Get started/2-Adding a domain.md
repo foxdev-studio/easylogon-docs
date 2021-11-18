@@ -6,6 +6,7 @@ Last update: 18-Nov-21 ([View change history](https://github.com/foxdev-studio/e
 - [Verify domain](#verify-domain)
 	- [Option 1: DNS verification](#option-1-dns-verification)
 	- [Option 2: File verification](#option-2-file-verification)
+- [Next steps](#next-steps)
 
 ## Add new domain
 Non ullamco duis sunt sit labore culpa eiusmod labore nisi anim enim. Occaecat amet ad elit ea consectetur qui aliqua. Qui magna pariatur nulla dolor velit id culpa sit velit. Tempor eu officia veniam consequat non minim irure anim reprehenderit elit sint. Nulla et exercitation nostrud enim laborum eiusmod fugiat qui. Reprehenderit do nulla enim officia sint aliqua eu quis dolor aute in reprehenderit pariatur incididunt. Sint mollit eu veniam deserunt voluptate ea ex.

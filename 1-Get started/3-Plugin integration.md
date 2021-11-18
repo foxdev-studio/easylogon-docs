@@ -1,3 +1,13 @@
+# Plugin integration
+Last update: 18-Nov-21 ([View change history](https://github.com/foxdev-studio/easylogon-docs/commits/master/1-Get%20started/3-Plugin%20integration.md))
+
+## Table of Contents
+- [Obtain code](#obtain-code)
+	- [CSS selectors](#css-selectors)
+- [Insert code to your website](#insert-code-to-your-website)
+	- [React](#react)
+- [Next steps](#next-steps)
+
 ## Obtain code
 Lorem ad nulla velit duis deserunt esse occaecat. Amet nostrud exercitation minim nostrud nisi velit exercitation. Laboris ullamco in consectetur consectetur eu reprehenderit non irure tempor Lorem elit consectetur minim tempor. Culpa dolor in ea consectetur. Proident ad consequat eu ipsum.
 
