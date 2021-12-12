@@ -26,12 +26,35 @@ Last update: 12-Dec-21 ([View change history](https://github.com/foxdev-studio/e
 <script src="https://easylogon.foxdev.studio/ezlog.js" defer></script>
 ```
 
-| Attribute | Description | Valid values |
-| --------- | ----------- | ------------ |
-| data-widgettype | Type of widget appearance. Go to [widget creation panel](/profile#CreateWidget) to see difference in action | `inlineButton`, `button`, `inline`, `link` |
-| data-login | CSS selector which points at an `<input />` field for user's email/login on authentication page | Valid CSS selector pointing at the exact `<input />` element |
-| data-password | CSS selector which points at an `<input />` field for user's password on authentication page | Valid CSS selector pointing at the exact `<input />` element |
-| data-login | CSS selector which points at an HTML element which is used as "Sign in" button on authentication page | Valid CSS selector pointing at the exact `<input />` element |
+<table>
+	<tr>
+		<th>Attribute</th>
+		<th>Description</th>
+		<th>Valid values</th>
+	</tr>
+	<tr>
+		<td>data-widgettype</td>
+		<td>Type of widget appearance. Go to <a href="/profile#CreateWidget">widget creation panel</a> to see difference in action</td>
+		<td>
+			<code>inlineButton</code>, <code>button</code>, <code>inline</code>, <code>link</code>
+		</td>
+	</tr>
+	<tr>
+		<td>data-login</td>
+		<td>CSS selector which points at an <code>input</code> field for user's email/login on authentication page</td>
+		<td>Valid CSS selector pointing at the exact <code>input</code> element</td>
+	</tr>
+	<tr>
+		<td>data-password</td>
+		<td>CSS selector which points at an <code>input</code> field for user's password on authentication page</td>
+		<td>Valid CSS selector pointing at the exact <code>input</code> element</td>
+	</tr>
+	<tr>
+		<td>data-submit</td>
+		<td>CSS selector which points at an HTML element which is used as "Sign in" button on authentication page</td>
+		<td>Valid CSS selector pointing at the exact element</td>
+	</tr>
+</table>
 
 ## Plugin CSS selectors
 ### #ezl-btn
