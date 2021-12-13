@@ -1,5 +1,5 @@
 # Plugin API reference
-Last update: 12-Dec-21 ([View change history](https://github.com/foxdev-studio/easylogon-docs/commits/master/2-API%20Reference/1-Plugin.md))
+Last update: 13-Dec-21 ([View change history](https://github.com/foxdev-studio/easylogon-docs/commits/master/2-API%20Reference/1-Plugin.md))
 
 ## Table of Contents
 - [Plugin attributes](#plugin-attributes)

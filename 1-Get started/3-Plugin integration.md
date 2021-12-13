@@ -1,5 +1,5 @@
 # Plugin integration
-Last update: 18-Nov-21 ([View change history](https://github.com/foxdev-studio/easylogon-docs/commits/master/1-Get%20started/3-Plugin%20integration.md))
+Last update: 13-Dec-21 ([View change history](https://github.com/foxdev-studio/easylogon-docs/commits/master/1-Get%20started/3-Plugin%20integration.md))
 
 ## Table of Contents
 - [Obtain code](#obtain-code)
