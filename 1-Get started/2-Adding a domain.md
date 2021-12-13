@@ -3,6 +3,8 @@ Last update: 18-Nov-21 ([View change history](https://github.com/foxdev-studio/e
 
 ## Table of Contents
 - [Add new domain](#add-new-domain)
+	- [On registration page](#on-registration-page)
+	- [On profile page](#on-profile-page)
 - [Verify domain](#verify-domain)
 	- [Option 1: DNS verification](#option-1-dns-verification)
 	- [Option 2: File verification](#option-2-file-verification)
