@@ -9,24 +9,124 @@ Last update: 18-Nov-21 ([View change history](https://github.com/foxdev-studio/e
 - [Next steps](#next-steps)
 
 ## Add new domain
-Non ullamco duis sunt sit labore culpa eiusmod labore nisi anim enim. Occaecat amet ad elit ea consectetur qui aliqua. Qui magna pariatur nulla dolor velit id culpa sit velit. Tempor eu officia veniam consequat non minim irure anim reprehenderit elit sint. Nulla et exercitation nostrud enim laborum eiusmod fugiat qui. Reprehenderit do nulla enim officia sint aliqua eu quis dolor aute in reprehenderit pariatur incididunt. Sint mollit eu veniam deserunt voluptate ea ex.
+### On registration page
+[As soon as you created your account](https://easylogon.foxdev.studio/get-started), you can add your domains. Simply type in your domain into the text field and click "Next"
+![Add domain on account creation](https://easylogon.foxdev.studio/docs/add-domain-getstarted.png)
 
-Irure quis adipisicing laborum quis esse ipsum. Ut veniam minim ad irure occaecat ut veniam laboris id adipisicing nostrud est. Elit enim occaecat officia eiusmod. Irure sunt Lorem amet consequat sit excepteur deserunt ex. Ad ullamco do eu amet aute mollit. Aute minim eiusmod voluptate officia ex dolor pariatur consectetur eiusmod aliqua ut.
+> **Note**
+> Don't include protocol or path when adding a domain:
+> **Incorrect:**
+> ```
+> https://example.com
+> https://en.example.com/index.html
+> ```
+> **Correct:**
+> ```
+> example.com
+> en.example.com
+> ```
 
-Eu voluptate minim aute voluptate eu enim mollit. Id aute reprehenderit cillum pariatur Lorem ex elit cillum. Mollit aliquip mollit in eiusmod culpa adipisicing sunt. Non duis exercitation nisi deserunt fugiat anim. Veniam excepteur nostrud eu ullamco esse anim mollit sunt dolor qui eu. Cillum ea dolor nisi laborum nostrud ullamco non. Voluptate labore irure labore sunt labore nostrud.
+If you want to use EasyLogon on all your subdomains, prepend an asterisk wildcard to your domain name:
+```
+*.example.com
+```
+This will include all subdomains you have on your primary domain. For example:
+- en.example.com
+- ru.example.com
+- forum.example.com
+- app.example.com
+- etc.
+
+If you have more than one domain, you'd like to connect, enumerate them, separating with semicolon sign (;)
+
+For example, if you type in following string:
+```
+*.example.com;myweb.site;site.test.com
+```
+You will add following domains to your account:
+- example.com (with all subdomains)
+- myweb.site
+- site.test.com
+
+### On profile page
+If you don't want to add domains now, you can do it later on your [profile page](https://easylogon.foxdev.studio/profile)
+
+Go to Domains section and click "+ Add new domain"
+
+![Add domain on profile page](https://easylogon.foxdev.studio/docs/add-domain-profile1.png)
+
+Type in your domain and press Enter or "+" button
+
+![Add domain on profile page](https://easylogon.foxdev.studio/docs/add-domain-profile2.png)
+
+Just like on the Get Started page, you can use wildcards to include all subdomains
 
 ## Verify domain
-Aliqua est mollit ad magna eu ea ipsum laboris. Irure ipsum nulla voluptate ipsum adipisicing quis. Id proident nulla tempor culpa incididunt qui occaecat proident excepteur dolore. Veniam id nisi dolore deserunt fugiat ex. Qui ea mollit occaecat non duis commodo nisi.
+Once you've added your domain to the account, you need to verify it before you can use QR sign in on your website.
+
+To do so, go to your [profile page](https://easylogon.foxdev.studio/profile) and in Domains section click on your domain that requires verification
+
+![Verify domain](https://easylogon.foxdev.studio/docs/verify-domain.png)
+
+From now, you have two options to verify your domain: with DNS record or with file
 
 ### Option 1: DNS verification
-Ipsum id proident consequat consequat tempor excepteur tempor consequat nisi sit est ex. Velit sit nulla Lorem laborum anim velit aliquip velit nisi commodo. Eu exercitation voluptate laboris aliquip reprehenderit proident ad. Et culpa esse cillum dolore. Enim veniam eu laborum cillum. Ullamco consectetur est dolor qui nisi quis duis incididunt ullamco elit labore id anim laborum.
+To verify your domain with DNS you will need to add a new DNS record on your domain registrar website
 
-Culpa officia incididunt sunt culpa aliqua in reprehenderit qui elit minim culpa ex consectetur. Culpa veniam dolor amet eiusmod esse nostrud qui excepteur pariatur. Ea deserunt adipisicing proident cupidatat sit do et laboris laborum magna et. Lorem non sint labore non sunt ea pariatur labore. Velit do magna incididunt mollit. Qui proident id veniam culpa consectetur.
+Here some instructions on how to add DNS records for most popular providers:
+- [GoDaddy](https://www.godaddy.com/help/add-an-a-record-19238)
+- [NameCheap](https://www.namecheap.com/support/knowledgebase/article.aspx/10357/2254/video-how-do-i-add-a-txt-record-for-my-domain/)
+- [Name.com](https://www.name.com/support/articles/115004972547-Adding-a-TXT-Record)
+
+If you use another provider do the following steps:
+1. [Identify you domain host](https://support.google.com/a/answer/48323)
+2. In a second browser window or tab, sign in to your domain host account
+3. Go to your domain’s DNS records. The page might be called something like DNS Management, Name Server Management, Control Panel, or Advanced Settings
+4. Select the option to add a new record
+
+DNS record details are shown in the domain verification window:
+
+![DNS Verification](https://easylogon.foxdev.studio/docs/verify-dns.png)
+
+This is how it looks when you add DNS record on Name.com:
+
+![Adding DNS record on Name.com](https://easylogon.foxdev.studio/docs/verify-dns1.png)
+
+Click "Add record", go back to EasyLogon tab and click "Check verification" to verify your domain
+
+> **Note**
+> It may take up to 48 hours for DNS servers to sync your changes, so if verification fails, try to check verification later
+
+If verification is successfull, the page will reload and "requires verification" label will disappear
+
+> **Note**
+> After successful verification you should not delete the DNS entry, because our service will periodically re-verify your domain to ensure that it is still yours
 
 ### Option 2: File verification
-In laborum sint quis aute laboris non occaecat nostrud pariatur irure ut dolore reprehenderit. Anim sit Lorem magna labore velit reprehenderit deserunt amet eu. Irure aliqua dolore deserunt do fugiat et fugiat minim qui laborum fugiat tempor nostrud non. Dolore elit consectetur nisi excepteur qui ex culpa tempor fugiat occaecat veniam laborum. Consectetur pariatur amet anim et cillum excepteur elit enim voluptate labore nisi.
+Alternatively, you can verify your domain by uploading a text file to the root of your website
 
-Magna in nostrud sunt anim ex occaecat ad proident officia. Nulla aute aliqua minim ipsum cupidatat proident nisi in officia esse. Laborum ullamco dolor minim id veniam veniam id aute amet veniam enim. Labore commodo ad sint cillum exercitation reprehenderit ex quis laborum sunt fugiat. Veniam quis Lorem ullamco laboris anim eiusmod. Nostrud deserunt in cillum in. Labore est proident elit ea non occaecat consequat aliqua anim sit esse incididunt in veniam.
+First, download file from domain verification window by clicking "Download file"
+
+![Download file](https://easylogon.foxdev.studio/docs/verify-file1.png)
+
+Then upload the file to the root folder of your website on your server. Here some ways to do so:
+
+If you have a dedicated VPS/VDS server, see [Transfer Files Between Remote and Local Systems Over SSH](https://linuxhandbook.com/transfer-files-ssh/)
+
+If you use a hosting for your website, see instructions for control panel, installed on your hosting:
+- [Plesk](https://docs.plesk.com/en-US/12.5/customer-guide/websites-and-domains/website-content/uploading-content-with-file-manager.74105/#:~:text=%20To%20upload%20a%20website%20from%20your%20computer,Upload%20Files%2C%20select%20the%20archive%20file%2C...%20More%20)
+- [cPanel](https://www.peopleshost.com/2018/07/how-to-upload-files-using-file-manager-in-cpanel/)
+
+As the result, the file should be accessible via browser at `https://yourdomain.com/_ezlverification_challenge.txt`
+
+If you done it right, when navigating to `https://yourdomain.com/_ezlverification_challenge.txt` you should see your verification string
+
+When it's done, click "Check verification" on EasyLogon domain verification window
+
+If verification is successfull, the page will reload and "requires verification" label will disappear
+
+> **Note**
+> After successful verification you should not delete the file, because our service will periodically re-verify your domain to ensure that it is still yours
 
 ## Next steps
 - [Plugin integration](/docs/1-Get%20started/3-Plugin%20integration)
