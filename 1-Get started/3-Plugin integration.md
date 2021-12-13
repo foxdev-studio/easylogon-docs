@@ -8,25 +8,80 @@ Last update: 18-Nov-21 ([View change history](https://github.com/foxdev-studio/e
 	- [React](#react)
 - [Next steps](#next-steps)
 
-## Obtain code
-Lorem ad nulla velit duis deserunt esse occaecat. Amet nostrud exercitation minim nostrud nisi velit exercitation. Laboris ullamco in consectetur consectetur eu reprehenderit non irure tempor Lorem elit consectetur minim tempor. Culpa dolor in ea consectetur. Proident ad consequat eu ipsum.
+Once you created account, added and verified your domain, it's time to add QR code widget to your website
 
-In labore do ea ut laboris cupidatat. Aute fugiat ea nisi qui laborum et duis deserunt pariatur. Et nostrud ad qui sit veniam aliquip veniam. Ea velit consectetur pariatur eu nisi eiusmod aute. Esse sint aute aliqua irure. Eu consequat voluptate magna ea elit. Mollit fugiat minim velit quis eu exercitation eu ex ea aliqua excepteur occaecat ad.
+## Obtain code
+Go to your [profile page](https://easylogon.foxdev.studio/profile#CreateWidget) and click "Get widget code" button in Domains section
+
+On Configure widget panel you can see how widget will look on your website in an interactive preview section
+
+You can change widget appearance by changing widget type
+
+![Widget configuration](https://easylogon.foxdev.studio/docs/widget-preview.png)
 
 ### CSS selectors
-Ut aute tempor velit irure. Amet laboris in aute culpa excepteur dolore adipisicing. In non aute sunt ex nostrud dolor consectetur nostrud velit aliqua.
+Next step is to bind your login/password fields so widget can automatically insert user's credentials and "click" sign in button
 
-Ut eiusmod ad consequat aliqua Lorem qui. Do aute laboris nostrud velit deserunt consequat consectetur veniam nisi et. Id eiusmod nisi do esse. Ipsum eiusmod dolore voluptate nisi labore anim est quis et do ipsum officia. Dolore reprehenderit laborum labore elit aute fugiat nulla elit Lorem excepteur. Eu in Lorem pariatur esse Lorem dolore nulla ex amet commodo enim adipisicing qui.
+Watch this video to know how to obtain selectors:
+
+> Put video here
+
+Materials:
+- [Copy CSS Selector extension for Chrome](https://chrome.google.com/webstore/detail/copy-css-selector)
+- [Validation script](https://easylogon.foxdev.studio/docs/test-script.js)
 
 ## Insert code to your website
-Anim excepteur aliquip nostrud sit ipsum veniam labore ex labore pariatur. Nostrud pariatur commodo occaecat qui exercitation aliqua ullamco Lorem minim sit. Deserunt veniam irure nisi dolor laborum ad voluptate veniam. Quis consectetur qui pariatur deserunt et aliqua quis amet aliquip aute qui proident. Cupidatat mollit esse exercitation Lorem irure consectetur magna anim dolor. Sit consequat dolor non labore consequat irure incididunt officia ad eiusmod amet dolor dolore.
+When all fields are filled and tested, next step is to insert generated code into your sign in page
 
-Eiusmod Lorem pariatur nostrud eu incididunt in velit do ullamco ut. Eu fugiat dolore labore velit amet sit Lorem non velit. Ea amet ipsum quis eiusmod enim aute ut ut pariatur enim eiusmod. Cupidatat irure est cillum amet occaecat velit sint occaecat nostrud do. Duis tempor laborum consequat exercitation et amet ut. Deserunt do laboris consequat ea velit sit fugiat dolor.
+Click "Copy" button at the bottom of panel
+
+![Copy widget code](https://easylogon.foxdev.studio/docs/widget-copy.png)
+
+Open HTML code of your authentication page. If you use a CMS on your website, learn how to edit page source code
+
+<!--Here some tutorial videos on popular CMS:
+- [WordPress]()
+- [Wix]()
+- [Squarespace]()
+- [Joomla]()
+- [Drupal]()
+- [DataLife Engine]()-->
+
+Insert container part of the plugin into place you'd like to see the widget and the script part at the bottom of the `<body>` tag
+
+![Paste code into webpage](https://easylogon.foxdev.studio/docs/paste-code.png)
+
+> **Note**
+>
+> If you have problems with plugin integration, feel free to [contact our support](https://easylogon.foxdev.studio/support) and we'll do our best to assist you or even setup integration for you. This is free
 
 ### React
-Consequat officia nisi aliquip irure nostrud pariatur consectetur anim reprehenderit excepteur ex fugiat non. Veniam ea aute proident est ut. Sint mollit eu culpa anim sint laborum et consequat eu fugiat. Incididunt laboris dolore irure labore reprehenderit nostrud duis eu. Esse ea irure enim nulla nostrud. Irure est mollit consequat eiusmod sunt non dolor ipsum aliqua est dolor occaecat.
+If your web application is using ReactJS frame work, you need to perform additional steps:
 
-Eiusmod anim ex qui cupidatat non est id laboris non cillum aute laborum. Dolore voluptate excepteur nostrud laborum esse id velit culpa mollit exercitation ad in cupidatat. In dolor voluptate reprehenderit non occaecat id. Aute do deserunt do consequat pariatur irure eu aute. Nostrud pariatur quis ullamco pariatur ex ullamco excepteur pariatur amet tempor cillum et. Elit sit velit ut fugiat mollit eu do nisi aute deserunt.
+Instead of pasting script block of plugin (second part of code on picures above), paste following code into `componentDidMount` method of your component (if you are using class-based components):
+```js
+componentDidMount()
+{
+	var script = document.createElement("script");
+	script.src = "https://easylogon.foxdev.studio/ezlog.js";
+	script.defer = true;
+	script.async = true;
+	document.body.appendChild(script);
+}
+```
+
+or if you're using functional components in `useEffect` method:
+
+```js
+useEffect(() =>
+{
+	var script = document.createElement("script");
+	script.src = "https://easylogon.foxdev.studio/ezlog.js";
+	script.defer = true;
+	script.async = true;
+	document.body.appendChild(script);
+}, [ ]);
+```
 
 ## Next steps
 - [Plugin customization](/docs/1-Get%20started/4-Plugin%20customization)

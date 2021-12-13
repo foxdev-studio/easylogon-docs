@@ -16,7 +16,9 @@ Last update: 18-Nov-21 ([View change history](https://github.com/foxdev-studio/e
 ![Add domain on account creation](https://easylogon.foxdev.studio/docs/add-domain-getstarted.png)
 
 > **Note**
+>
 > Don't include protocol or path when adding a domain:
+>
 > **Incorrect:**
 > ```
 > https://example.com
@@ -97,11 +99,13 @@ This is how it looks when you add DNS record on Name.com:
 Click "Add record", go back to EasyLogon tab and click "Check verification" to verify your domain
 
 > **Note**
+>
 > It may take up to 48 hours for DNS servers to sync your changes, so if verification fails, try to check verification later
 
 If verification is successfull, the page will reload and "requires verification" label will disappear
 
 > **Note**
+>
 > After successful verification you should not delete the DNS entry, because our service will periodically re-verify your domain to ensure that it is still yours
 
 ### Option 2: File verification
@@ -128,6 +132,7 @@ When it's done, click "Check verification" on EasyLogon domain verification wind
 If verification is successfull, the page will reload and "requires verification" label will disappear
 
 > **Note**
+>
 > After successful verification you should not delete the file, because our service will periodically re-verify your domain to ensure that it is still yours
 
 ## Next steps
