@@ -1,5 +1,5 @@
 # Plugin API reference
-Last update: 13-Dec-21 ([View change history](https://github.com/foxdev-studio/easylogon-docs/commits/master/2-API%20Reference/1-Plugin.md))
+Last update: 23-Dec-21 ([View change history](https://github.com/foxdev-studio/easylogon-docs/commits/master/2-API%20Reference/1-Plugin.md))
 
 ## Table of Contents
 - [Plugin attributes](#plugin-attributes)
@@ -58,6 +58,7 @@ This CSS selector points at the "Sign in with QR code" button (or link) an allow
 This CSS selector points at the plugin container
 
 > **Note**
+>
 > Even though `.ezl-container` is presented in all widget types. It is advised to use this selector only with `inline` widget
 
 #### Supported widget types

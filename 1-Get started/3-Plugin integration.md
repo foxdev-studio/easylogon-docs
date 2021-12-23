@@ -1,5 +1,5 @@
 # Plugin integration
-Last update: 13-Dec-21 ([View change history](https://github.com/foxdev-studio/easylogon-docs/commits/master/1-Get%20started/3-Plugin%20integration.md))
+Last update: 23-Dec-21 ([View change history](https://github.com/foxdev-studio/easylogon-docs/commits/master/1-Get%20started/3-Plugin%20integration.md))
 
 ## Table of Contents
 - [Obtain code](#obtain-code)
@@ -56,7 +56,7 @@ Insert container part of the plugin into place you'd like to see the widget and 
 > If you have problems with plugin integration, feel free to [contact our support](https://easylogon.foxdev.studio/support) and we'll do our best to assist you or even setup integration for you. This is free
 
 ### React
-If your web application is using ReactJS frame work, you need to perform additional steps:
+If your web application is using ReactJS framework, you need to perform additional steps:
 
 Instead of pasting script block of plugin (second part of code on picures above), paste following code into `componentDidMount` method of your component (if you are using class-based components):
 ```js
