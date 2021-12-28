@@ -1,13 +1,13 @@
 # EasyLogon Privacy Policy
-Last update: 11-Dec-21 ([View change history](https://github.com/foxdev-studio/easylogon-docs/commits/master/3-Legal%20documents/2-Privacy%20policy.md))
+Last update: 26-Dec-21 ([View change history](https://github.com/foxdev-studio/easylogon-docs/commits/master/3-Legal%20documents/2-Privacy%20policy.md))
 
 ## 1. General terms
 1. EasyLogon Privacy Policy (hereinafter "Policy") is applied to software developers, system administrators, internet-service maintainers, etc. (hereinafter "Customers") who implement EasyLogon solutions (like QR code authorization) to their software (hereinafter "Service").
 2. End-users (persons, who utilize EasyLogon mobile application and use EasyLogon QR code authorization to access their personal data) can find EasyLogon Privacy Policy for end-users at [https://ezlog.app/privacy](https://ezlog.app/privacy).
 3. By using our Service (by implementing it in software or accessing [https://easylogon.foxdev.studio/](https://easylogon.foxdev.studio/) website) Customers agree to this Policy and EasyLogon Terms of Use.
-4. Policy is a complimentary document to EasyLogon Terms of Use which can be found on [https://easylogon.foxdev.studio/terms](https://easylogon.foxdev.studio/terms).
+4. Policy is a complimentary document to EasyLogon Terms of Service which can be found on [https://easylogon.foxdev.studio/terms](https://easylogon.foxdev.studio/terms).
 5. Up-to-date version of Policy can be found on [https://easylogon.foxdev.studio/privacy](http://easylogon.foxdev.studio/privacy).
-6. New versions of Policy are automatically applied to Customers as soon as it was published.
+6. New versions of Policy are automatically applied to Customers as soon as they were published.
 7. Other versions of Policy, including outdated and upcoming versions presented in official EasyLogon documentation repository on GitHub ([https://github.com/foxdev-studio/easylogon-docs](https://github.com/foxdev-studio/easylogon-docs)) have no effect.
 8. FoxDev Studio LLC (hereinafter "Company") is obliged to notify Customer only about significant changes of the Policy.
 	1. Significant changes are changes which include, but not limited to:
