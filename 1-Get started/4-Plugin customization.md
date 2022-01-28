@@ -6,10 +6,10 @@ Last update: 13-Dec-21 ([View change history](https://github.com/foxdev-studio/e
 - [Custom CSS](#custom-css)
 - [Related links](#related-links)
 
-When everything is up and running, it's time to think about appearance. We provide some tools to customize widget
+When everything is up and running, it's time to think about appearance. We provide some tools to customize your widget
 
 ## Plugin types
-There're four basic types of widget which work out of box:
+There're four basic types of widget which work out of the box:
 - Inline (`inline`) - QR code is placed next to sign in form
 - Button (`button`) - "Sign in with QR code" button which is placed under sign in button
 - Inline button (`inlineButton`) - Small "Sign in with QR code" button which is placed on the right from password field
