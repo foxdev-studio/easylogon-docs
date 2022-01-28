@@ -8,7 +8,7 @@ Last update: 23-Dec-21 ([View change history](https://github.com/foxdev-studio/e
 - [Next steps](#next-steps)
 
 ## What is EasyLogon
-EasyLogon is a service that allows users to store all their passwords in one place and sign in on any website by scanning a QR code with their phone
+EasyLogon is a service that allows you to store all their passwords in one place and sign in on any website by scanning a QR code with their phone
 
 With EasyLogon you as a website owner or developer can easily integrate QR code sign in into your website without any significant changes to the code
 
@@ -24,7 +24,7 @@ Watch a quick video to know more:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zDCw1k0ag4o" title="EasyLogon. QR code authentication for everyone / @FoxDev Studio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## EasyLogon pricing
-We have launched Beta access to EasyLogon service. **During beta testing all features of EasyLogon are free to use** for both end-users and developers. However, once Release version is enrolled we introduce progressive pay-as-you-go pricing system for developers
+We have launched Beta access to EasyLogon service. **During beta testing all features of EasyLogon are free to use** for both end-users and developers. However, once Release version is rolled out we introduce progressive pay-as-you-go pricing system for developers
 
 For more information about pricing, please contact our marketing team at [business@foxdev.studio](mailto:business@foxdev.studio)
 
