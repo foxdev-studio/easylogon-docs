@@ -35,7 +35,7 @@ Last update: 23-Dec-21 ([View change history](https://github.com/foxdev-studio/e
 
 ## Plugin CSS selectors
 ### #ezl-btn
-This CSS selector points at the "Sign in with QR code" button (or link) an allow you to customize its appearance
+This CSS selector points at the "Sign in with QR code" button (or link) and allow you to customize its appearance
 
 #### Supported widget types
 - `inlineButton`
