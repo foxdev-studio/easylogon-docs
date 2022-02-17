@@ -21,7 +21,7 @@ Advantages of EasyLogon:
 
 Watch a quick video to know more:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zDCw1k0ag4o" title="EasyLogon. QR code authentication for everyone / @FoxDev Studio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zDCw1k0ag4o?cc_load_policy=1" title="EasyLogon. QR code authentication for everyone / @FoxDev Studio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## EasyLogon pricing
 We have launched Beta access to EasyLogon service. **During beta testing all features of EasyLogon are free to use** for both end-users and developers. However, once Release version is rolled out we introduce progressive pay-as-you-go pricing system for developers
