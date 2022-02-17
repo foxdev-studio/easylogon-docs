@@ -24,7 +24,7 @@ Next step is to bind your login/password fields so widget can automatically inse
 
 Watch this video to know how to obtain selectors:
 
-> Put video here
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ozwB8-TVusA?cc_load_policy=1" title="Obtaining CSS selectors for EasyLogon plugin integration // @FoxDev Studio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Materials:
 - [Copy CSS Selector extension for Chrome](https://chrome.google.com/webstore/detail/copy-css-selector)
